@@ -36,4 +36,7 @@ else
 	ln -s /opt/artwork/sparky-base.png /opt/artwork/sparky-desktop.png
 	cp opt/sparky-grub.png /opt/artwork/
 	cp opt/sparky-lightdm.svg /opt/artwork/
+	if [ ! -f /usr/share/backgrounds/default.jpg ]; then
+		ln -s /opt/artwork/sparky-base.jpg /usr/share/backgrounds/default.jpg
+	fi
 fi

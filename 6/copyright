@@ -4,11 +4,11 @@ Upstream Author(s):
 Files: DEBIAN/*
     pixmaps/sparky*.png
     sparky-menu.png
-    Copyright (C) 2015-2019 Paweł Pijanowski
+    Copyright (C) 2015-2020 Paweł Pijanowski
     License: GPL-3+
 
 Files: sparky-base.png, sparky-grub.png, sparky-lightdm.svg
-    Copyright 2019 (C) Paweł Pijanowski
+    Copyright 2019-2020 (C) Paweł Pijanowski
     Sparky logo modified by lami07    
     License: GPL-3+
 
