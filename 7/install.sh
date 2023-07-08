@@ -23,7 +23,6 @@ if [ "$1" = "uninstall" ]; then
 	rm -f /opt/artwork/sparky-menu.png
 	rm -f /opt/artwork/sparky-desktop.png
 	rm -f /opt/artwork/sparky-lightdm.svg
-	rm -f /opt/locker/sparky-lock.png
 else
 	cp pixmaps/* /usr/share/pixmaps/
 	if [ ! -d /opt/panel ]; then
@@ -43,8 +42,4 @@ else
 	if [ ! -f /usr/share/backgrounds/default.jpg ]; then
 		ln -s /opt/artwork/sparky-base.jpg /usr/share/backgrounds/default.jpg
 	fi
-	if [ ! -d /opt/locker ]; then
-		mkdir -p /opt/locker
-	fi
-	cp opt/sparky-lock.png /opt/locker/
 fi
